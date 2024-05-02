@@ -1,19 +1,14 @@
-class objeto{
-    constructor (parametro1,parametro2 ){
-        this.parametro1 = parametro1;
-        this.parametro2 = parametro2;
-    }
-    setodo1 (){
-     window
-    }
-    setodo2() {
 
-    }
-}
+
 class Calebe{
-    constructor(site){
+    constructor (site){
         this.site = site;
+    }
 
-
+    exibirSite (){
+        window.open(this.site);
     }
 }
+
+var novoCalebe = new Calebe ("https://www.tiktok.com/@endrick/video/7355302397683698950?lang=pt-BR");
+novoCalebe.exibirSite();
